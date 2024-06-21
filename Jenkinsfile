@@ -14,7 +14,6 @@ pipeline{
                 "http://ec2-54-197-112-53.compute-1.amazonaws.com:8081/artifactory/ansible/ansible-${BUILD_ID}.ZIP"'
             }
         }
-        
     }
 }
     
