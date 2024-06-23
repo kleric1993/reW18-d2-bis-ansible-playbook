@@ -5,9 +5,9 @@
   ignore_errors: yes
   tasks:
     - name: Delete old Artifact
-     file:
-       path: /opt/qa/spg/*.jar
-       state: absent
+      file:
+        path: /opt/qa/spg/*.jar
+        state: absent
 
     - name: Get the PID
       shell: lsof -i :8082
